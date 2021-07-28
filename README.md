@@ -4,7 +4,7 @@ Configure a typescript-based project with linting and testing.
 
 The project expects a folder `./src` with project source files and a folder `./tests` with tests in project root.
 
-## Configuraqtion
+## Configuration
 
 Configure typescript, 
 
@@ -95,3 +95,32 @@ npm i -g create-project
 ```
 npx create-project your-project-name suprcrew/project-template
 ```
+
+## Change log
+
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
+
+## Deployment
+
+Only maintainers are allowed to deploy new versions!
+
+1. Run `composer run release` which will run tests and on success update changelog, package version and creates a release tag
+2. switch to master branch and merge develop branch
+3. Run `composer run deploy` which will run tests and on success push tags, master branch and develop branch
+
+## Security
+
+If you discover any security related issues, please email marco_bunge@web.de instead of using the issue tracker.
+
+## Credits
+
+- [Marco Bunge][link-author]
+- [All Contributors][link-contributors]
+
+## License
+
+The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
