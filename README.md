@@ -13,7 +13,7 @@ Configure typescript,
 tsconfig.json
 ```json
 {
-  "extends": "./node_modules/@suprcrew/project-configs/configs/tsconfig.base.json"
+  "extends": "./node_modules/@suprcrew/project-config/configs/tsconfig.base.json"
 }
 ```
 
@@ -50,7 +50,7 @@ module.exports = {
 
 jest.config.js
 ```js
-const config = require('./node_modules/@suprcrew/project-configs/configs/jest.config.js');
+const config = require('./node_modules/@suprcrew/project-config/configs/jest.config.js');
 
 module.exports = {
   ...config,
