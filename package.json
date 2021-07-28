@@ -19,7 +19,11 @@
   "homepage": "https://bitbucket.org/jungehaie/config_files#readme",
   "files": [
     "configs",
-    "README.md"
+    "README.md",
+    "LICENSE.md",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md"
   ],
   "dependencies": {
     "@stryker-mutator/api": "^3.3.1",
