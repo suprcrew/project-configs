@@ -7,7 +7,7 @@
     "url": "https://github.com/suprcrew/project-configs"
   },
   "scripts": {
-    "prepublishOnly": "npx standard-version"
+    "prepublishOnly": "npx standard-version && git push --follow-tags origin master"
   },
   "keywords": [
     "config",
