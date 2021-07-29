@@ -108,9 +108,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT
 
 Only maintainers are allowed to deploy new versions!
 
-1. Run `composer run release` which will run tests and on success update changelog, package version and creates a release tag
-2. switch to master branch and merge develop branch
-3. Run `composer run deploy` which will run tests and on success push tags, master branch and develop branch
+1. Run `npm run release` which will update changelog, package version and creates a publishes a release and push everything to master.
 
 ## Security
 
