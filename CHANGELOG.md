@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.2](https://github.com/suprcrew/project-configs/compare/v0.1.1...v0.1.2) (2021-07-29)
+
+
+### Features
+
+* Update documenation ([4ce7bfc](https://github.com/suprcrew/project-configs/commit/4ce7bfc0b37798bd04f74e2749e3dc94bbcae035))
+
 ### [0.1.1](https://github.com/suprcrew/project-configs/compare/v0.1.0...v0.1.1) (2021-07-29)
 
 
