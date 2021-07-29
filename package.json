@@ -1,13 +1,13 @@
 {
   "name": "@suprcrew/project-config",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Configure a typescript-based project with linting and testing.",
   "repository": {
     "type": "git",
     "url": "https://github.com/suprcrew/project-configs"
   },
   "scripts": {
-    "prepublishOnly": "npx standard-version && git push --follow-tags origin master"
+    "release": "npx standard-version && git push --follow-tags origin master && npm publish --access public"
   },
   "keywords": [
     "config",
