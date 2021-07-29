@@ -13,6 +13,9 @@ module.exports = {
     Atomics: 'readonly',
     SharedArrayBuffer: 'readonly'
   },
+  // This fixes an issue with typescript projects
+  // see: https://stackoverflow.com/questions/63118405/how-to-fix-eslintrc-the-file-does-not-match-your-project-config
+  ignorePatterns: ['.eslintrc.js'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
     ecmaVersion: 2019,
@@ -21,7 +24,6 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   rules: {
-    indent: ['error', 2],
     'max-len': 'off',
     'consistent-return': 0,
     complexity: ['error', 5],
