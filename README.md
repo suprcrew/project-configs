@@ -122,3 +122,6 @@ If you discover any security related issues, please email marco_bunge@web.de ins
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+
+[link-author]: https://github.com/mbunge
+[link-contributors]: https://github.com/suprcrew/project-configs/graphs/contributors
