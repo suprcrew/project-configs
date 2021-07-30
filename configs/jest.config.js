@@ -10,7 +10,6 @@ module.exports = {
     "systemTests"
   ],
   "rootDir": "../../../../../",
-  "testResultsProcessor": "jest-sonar-reporter",
   "moduleFileExtensions": [
     "ts",
     "tsx",
