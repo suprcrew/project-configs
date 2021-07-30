@@ -1,6 +1,6 @@
 {
   "name": "@suprcrew/project-config",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Configure a typescript-based project with linting and testing.",
   "repository": {
     "type": "git",

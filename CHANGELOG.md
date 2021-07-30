@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/suprcrew/project-configs/compare/v0.1.2...v0.1.3) (2021-07-30)
+
+
+### Features
+
+* Remove support for sonar cube. Please configure sonar cube test reporter in concrete projects with `{ "testResultsProcessor": "jest-sonar-reporter" }` ([65f944b](https://github.com/suprcrew/project-configs/commit/65f944b893676b3ebe1e51bd74a6198f53663a44))
+
 ### [0.1.2](https://github.com/suprcrew/project-configs/compare/v0.1.1...v0.1.2) (2021-07-29)
 
 
